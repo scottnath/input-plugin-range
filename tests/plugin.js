@@ -1,5 +1,5 @@
 import test from 'ava';
-import contentTypes from 'holmes-content-types';
+import contentTypes from 'punchcard-content-types';
 
 import plugin from '../';
 
