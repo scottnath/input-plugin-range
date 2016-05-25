@@ -4,10 +4,7 @@ import validation from '../lib/validation';
 const input = {
   target: {
     name: 'range',
-    value: 'foo bar baz',
-  },
-  all: {
-    range: 'foo bar baz',
+    value: '2',
   },
 };
 
@@ -17,7 +14,8 @@ const settings = {
   },
   all: {
     range: {
-      empty: false,
+      min: 1,
+      max: 3,
     },
   },
 };
