@@ -28,12 +28,12 @@ const settings = {
 };
 
 
-// // Valid input
+// Valid input
 test('valid input', t => {
   t.true(validation(input, settings), 'Valid input returns true');
 });
 
-// // Invalid input
+// Invalid input
 test('validate correct input', t => {
   const ip = input;
   ip.target.value = '';
