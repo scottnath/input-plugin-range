@@ -4,10 +4,14 @@ import validation from '../lib/validation';
 const input = {
   target: {
     name: 'range',
-    value: 'foo bar baz',
+    value: '2',
   },
-  all: {
-    range: 'foo bar baz',
+};
+
+const badInput = {
+  target: {
+    name: 'range',
+    value: '5',
   },
 };
 
@@ -17,7 +21,8 @@ const settings = {
   },
   all: {
     range: {
-      empty: false,
+      min: 1,
+      max: 3,
     },
   },
 };
@@ -34,4 +39,9 @@ test('validate correct input', t => {
   ip.target.value = '';
 
   t.is(validation(ip, settings), 'range cannot be left blank!', 'Return string if not valid');
+});
+
+// Valid bad input returns error
+test('validate number out of range', t => {
+  t.is(validation(badInput, settings), 'range must be a value within given range!', 'Return string if not valid');
 });
