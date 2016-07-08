@@ -1,4 +1,4 @@
-Range Input Plugin [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+Range Input Plugin [![Build Status](https://travis-ci.org/punchcard-cms/input-plugin-range.svg?branch=master)](https://travis-ci.org/punchcard-cms/input-plugin-range) [![Coverage Status](https://coveralls.io/repos/github/punchcard-cms/input-plugin-range/badge.svg?branch=master)](https://coveralls.io/github/punchcard-cms/input-plugin-range?branch=master) [![NSP Status](https://nodesecurity.io/orgs/punchcard-cms/projects/464ca922-877d-49d1-bc87-53379249ecda/badge)](https://nodesecurity.io/orgs/punchcard-cms/projects/464ca922-877d-49d1-bc87-53379249ecda)
 ---
 
 Simple range input type
@@ -6,12 +6,3 @@ Simple range input type
 ## License
 
 Apache-2.0
-
-[npm-image]: https://badge.fury.io/js/input-plugin-range.svg
-[npm-url]: https://npmjs.org/package/input-plugin-range
-[travis-image]: https://travis-ci.org/punchcard-cms/input-plugin-range.svg
-[travis-url]: https://travis-ci.org/punchcard-cms/input-plugin-range
-[daviddm-image]: https://david-dm.org/punchcard-cms/input-plugin-range.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/punchcard-cms/input-plugin-range
-[coveralls-image]: https://coveralls.io/repos/punchcard-cms/input-plugin-range/badge.svg
-[coveralls-url]: https://coveralls.io/r/punchcard-cms/input-plugin-range
